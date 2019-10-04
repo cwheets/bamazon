@@ -32,8 +32,7 @@ const itemChoice = {
     if (currentAnswers.purchaseConfirmation) {
       return true;
     }
-    end.connection()
-    return false;
+    return false
   },
   name: "itemChoice",
   message: "what item would you like to buy",
@@ -73,8 +72,6 @@ async function menu() {
     itemChoice,
     purchaseCountPrompt
   ]);
-
-  await inquirer.prompt([{type: "confirm", name: 'test'}])
  
   const stockObject = await query(
     `SELECT stock_quantity FROM products WHERE product_name = '${userResponse.itemChoice}'`
@@ -95,10 +92,7 @@ async function menu() {
           product_name: userResponse.itemChoice
         }
       ])
-
-      if (!updateResult.affectRows) {
-        console.log('Unable to purchase!')
-      }
+      console.log("thank you for your purchase!")
     } catch (err) {
       console.log('Something went wrong processing the order!')
     }

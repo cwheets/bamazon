@@ -14,25 +14,32 @@ CREATE TABLE products(
 );
 
 INSERT INTO products(product_name,department_name,price,stock_quantity)
-VALUES("swiffer", "cleaning", 20, 60);
+VALUES("dragon scale", "smithing", 20, 60);
 
 INSERT INTO products(product_name,department_name,price,stock_quantity)
-VALUES("full pig", "food", 200, 6);
+VALUES("newt eye", "alchemy", 5, 600);
 
 INSERT INTO products(product_name,department_name,price,stock_quantity)
-VALUES("pinata", "home", 10, 5);
+VALUES("vampire teeth", "alchemy", 300, 5);
 
 INSERT INTO products(product_name,department_name,price,stock_quantity)
-VALUES("computer", "electronics", 1,6000 );
+VALUES("anvil", "smithing", 6000, 1);
 
 INSERT INTO products(product_name,department_name,price,stock_quantity)
-VALUES("rainer", "food", 20, 60);
+VALUES("16pk rainer", "food", 10, 1000);
 
--- INSERT INTO products(product_name,department_name,price,stock_quantity)
--- VALUES("swiffer", "cleaning", 20, 60);
+INSERT INTO products(product_name,department_name,price,stock_quantity)
+VALUES("potion pouch", "adventuring", 80, 40);
 
--- INSERT INTO products(product_name,department_name,price,stock_quantity)
--- VALUES("swiffer", "cleaning", 20, 60);
+INSERT INTO products(product_name,department_name,price,stock_quantity)
+VALUES("big sword", "adventuring", 500, 10);
 
--- INSERT INTO products(product_name,department_name,price,stock_quantity)
--- VALUES("swiffer", "cleaning", 20, 60);
+INSERT INTO products(product_name,department_name,price,stock_quantity)
+VALUES("wand'o random fx", "???", 3000, 2);
+
+INSERT INTO products(product_name,department_name,price,stock_quantity)
+VALUES("traders eye glass", "shopkeeping", 100, 10);
+
+INSERT INTO products(product_name,department_name,price,stock_quantity)
+VALUES("stick", "adventuring?", 1, 10000);
+
